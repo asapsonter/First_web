@@ -1,0 +1,42 @@
+body {background-color: bisque;}
+            h1 {
+                text-align: center;
+                color: blue;
+            }
+        header {
+            background-color: #666;
+            padding: 30px;
+            text-align: center;
+            font-size: 25px;
+            color: rgb(103, 83, 83);
+}
+            img {
+                width: 200px;
+                border-radius: 210px;
+                height: 200px;
+                float: left;
+                margin-right: 10px;
+                object-position: top;
+            }
+        
+            p.username {
+                font-weight: bold;
+                color: black;
+                font-size: 20px;
+                text-align: center; 
+                text-decoration: solid;
+                margin-right: 10px;
+                float: right ;
+                position : relative;
+                
+                }
+            .social-links-div{
+               float: right !important;
+                width: auto;
+                height: auto;
+                background: rgb(75, 58, 150);
+                padding: 20px;
+                }
+            h2 {text-align:right,center;}
+
+          
