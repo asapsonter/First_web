@@ -1,49 +1,67 @@
-body {background-color: bisque;}
-            h1 {
-                text-align: center;
-                color: blue;
-            }
-        
 
-        .header {
-            background: rgb(75, 58, 150);
-            border-radius: 2% !important;
-            border-width: auto;
-            height: 10% auto;
-            width: 20% auto;
-            padding: 20px;
-            text-align: center;
-            font-size: 25px;
-            font-family: "Times New Roman";
-            color: rgb(103, 83, 83);  
-            }
-        img{
-            position: relative;
-            top: -145px;
-            width: 10%;
-            height: 18%;
-            border-radius: 30%;
+        body {background-color: bisque;}
+                    h1 {
+                        
+                        text-align: center;
+                        position: relative;
+                        top: 2px;
+                        color: bisque;
+                        margin: 0;
+                    }
+                
+                header {
+                    background: rgb(75, 58, 150);
+                    border-radius: 2% !important;
+                    border-width: 2px;
+                    height: 100px;
+                    width: 100%;
+                    padding: 20px;
+                    text-align: center;
+                    font-size: 25px;
+                    font-family: "Times New Roman";
+                    color: rgb(103, 83, 83);  
+                    }
+                .img{
+                    position: relative;
+                    right: 48%;
+                    top: -80px !important;
+                    width: 100px;
+                    height: 150px;
+                    border-radius:40%;
+                }
+                    .social-links-div{
+                        position: relative;
+                        top : -10px;
+                        float: right !important;
+                        width: auto;
+                        height: auto;
+                        background: rgb(75, 58, 150);
+                        padding: 20px;
+                        }
+                    h2 {text-align:right;}
+
+    .info { 
+        text-align: center, unset;
+        position: fixed;
+        top: 200px;
+        background-color: rgb(75, 58, 150);
+        font-size: 20px;
+        width:10%;
+        height:auto;
+        border: solid black !important;
+        font-family: "Times New Roman";
+        color:bisque;
+        margin: 20px 0 0auto;
         }
-            .social-links-div{
-                position: relative;
-                top : -10px;
-                float: right !important;
-                width: auto;
-                height: auto;
-                background: rgb(75, 58, 150);
-                padding: 20px;
-                }
-            h2 {text-align:right;}
+                    
+    .footer {
+        position:fixed; 
+        bottom: 0;
+        font:black;               
+        width: 100%;
+        height: 8%;             
+        background-color: rgb(75, 58, 150);
+        color:bisque;
+        text-align: center;
+        }
 
-            .info {text-align: center, unset;
-                position: relative;
-                top: 400px;
-                background-color: rgb(75, 58, 150);
-                font-size: 20px;
-                border: solid black !important;
-                font-family: "Times New Roman";
-                color: rgb(37, 0, 0);
-                margin: 20px 0 0auto;
-                }
-
-            
