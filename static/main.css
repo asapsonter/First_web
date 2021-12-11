@@ -19,7 +19,8 @@
                     text-align: center;
                     font-size: 25px;
                     font-family: "Times New Roman";
-                    color: rgb(103, 83, 83);  
+                    color: rgb(103, 83, 83); 
+                    overflow: auto;; 
                     }
                 .img{
                     position: relative;
@@ -28,7 +29,10 @@
                     width: 100px;
                     height: 150px;
                     border-radius:40%;
-                }
+                    overflow: auto;
+                    }
+
+                
                     .social-links-div{
                         position: relative;
                         top : -10px;
@@ -64,4 +68,16 @@
         color:bisque;
         text-align: center;
         }
+    
+    .mainform {
+        position: fixed;
+       left: 500px;
+        top: 200px;
+        width: 20%;
+        height:100%;
+        
+        
+        }
+
+    
 
