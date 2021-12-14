@@ -1,8 +1,13 @@
-{% extend "layout.html" %}
-    
+{%extends "layout.html"%}
     {% block content %}
+{%if title%}
+<title> Sam Sonter - {{title}} </title>
+{%else%}
+<title> Sam Sonter </title>
+{%endif%}
 
-    content
+<body> Sam Sonter  </body>
+    
 
-    {% endblock %}
+{% endblock content %}
 

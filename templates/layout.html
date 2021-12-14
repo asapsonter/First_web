@@ -2,7 +2,12 @@
 <html lang="en">
 
 <head>
-    <title> My info page </title>
+    {%if title%}
+    <title> Sam Sonter - {{title}}</title>
+    {%else%}
+    <title> Sam Sonter</title>
+    {%endif%}
+
     <meta charset="utf-8">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,14 +16,14 @@
 </head>
 
 <body>
+    <div class="container">
+        
     <header>
         <section class="header">
             <h1> SAM SONTER <sub> The Developer</sub> </h1>
             <img class="img" src="/static/images/sammy.jpg" alt="This is a picture of sam">
     </header>
-    <div class="container">
-        {%block content%}
-        {%endblock%}
+    
 
     </div>
     </section>
@@ -116,6 +121,7 @@
     <div class="footer">
         <p>Sam Sonter&trade;</p>
     </div>
+    {% block content %} {% endblock %}
 </body>
 
 </html>
