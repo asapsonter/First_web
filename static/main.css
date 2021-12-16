@@ -8,6 +8,9 @@
                         color: bisque;
                         margin: 0;
                     }
+                    html, body {
+                        height: 100%;
+                    }
                 
                 header {
                     background: rgb(75, 58, 150);
@@ -20,7 +23,7 @@
                     font-size: 25px;
                     font-family: "Times New Roman";
                     color: rgb(103, 83, 83); 
-                    overflow: auto;; 
+                    overflow:fixed; 
                     }
                 .img{
                     position: relative;
@@ -42,7 +45,7 @@
                         background: rgb(75, 58, 150);
                         padding: 20px;
                         }
-                    h2 {text-align:right;}
+                    
 
     .info { 
         text-align: center, unset;
@@ -58,26 +61,67 @@
         margin: 20px 0 0auto;
         }
                     
-    .footer {
-        position:fixed; 
-        bottom: 0;
-        font:black;               
-        width: 100%;
-        height: 8%;             
-        background-color: rgb(75, 58, 150);
-        color:bisque;
-        text-align: center;
-        }
+    
+        
     
     .mainform {
         position: fixed;
-       left: 500px;
+        left: 500px;
         top: 200px;
         width: 20%;
-        height:100%;
-        
+        height:100%;  
         
         }
+    
+
+    .content{
+        background-color: rgb(75, 58, 150);
+        opacity: 1.2;
+        width: 50%;
+        height: auto;
+        padding: 20px;
+        border-collapse: center;
+        border-radius: 2%;
+        position: relative;
+        left: 25%;
+        font: black;
+        overflow:auto;
+        } 
+    
+        main{ 
+            width:90vw;
+            margin:0 auto;
+            padding: 30px 20px;
+            min-height:auto;
+        } 
+
+        .footer {
+        position: fixed;
+        clear: both;         
+        height: 30px; 
+        width: 100%;            
+        background-color: rgb(75, 58, 150);
+        color:bisque;
+        text-align: center;
+        padding:20px;
+        bottom: 0;
+        z-index: 1;
+        }
+
+        
+
+    /* .content > entry-title{
+        font-size: 10px;
+        font-family: "Times New Roman";
+        color: bisque;
+        }
+    .content > entry-content{
+        font-size: 20px;
+        font-family: "Times New Roman";
+        color: bisque;
+        }
+     */
+
 
     
 
