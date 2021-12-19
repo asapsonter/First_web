@@ -58,7 +58,7 @@
         border: solid black !important;
         font-family: "Times New Roman";
         color:bisque;
-        margin: 20px 0 0auto;
+        margin: 20px;
         }
                     
     
@@ -79,13 +79,12 @@
         opacity: 1.2;
         width: 50%;
         height: auto;
-        padding: 20px;
+        padding: 50px;
         border-collapse: center;
         border-radius: 2%;
         position: relative;
-        left: 25%;
+        left: 22%;
         font: black;
-        overflow:auto;
         } 
     
         main{ 
@@ -107,20 +106,50 @@
         bottom: 0;
         z-index: 1;
         }
-
         
+    
+    .entry-title-link{
+        font-family: "Times New Roman";
+        font-size: 25px;
+        text-align: center !important;
+        color: bisque;
+        
+    }
+    .portfolio-content{
+        background-color: rgb(103, 83, 83);
+        opacity: 1.2;
+        width: 60%;
+        height: auto;
+        padding: 20px;
+        border-collapse: center;
+        border-radius: 2%;
+        position: relative;
+        left: 20%;
+        font: black;
+    }
+    .portfolio-section-content-image{
+        width: 100px;
+        height: 200px;
+        padding: 20px;
+        border-collapse: center;
+        border-radius: 2%;
+        position: relative;
+        
+            }
+        
+    .about-content{
+        background-color: rgb(103, 83, 83);
+        opacity: 1.2;
+        width: 60%;
+        height: auto;
+        padding: 20px;
+        border-collapse: center;
+        border-radius: 2%;
+        position: relative;
+        left: 20%;
+        font: black;
+    }
 
-    /* .content > entry-title{
-        font-size: 10px;
-        font-family: "Times New Roman";
-        color: bisque;
-        }
-    .content > entry-content{
-        font-size: 20px;
-        font-family: "Times New Roman";
-        color: bisque;
-        }
-     */
 
 
     

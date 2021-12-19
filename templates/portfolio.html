@@ -6,7 +6,34 @@
 <title> Sam Sonter </title>
 {%endif%}
 
-<body> Sam Sonter  </body>
+
+<body> 
+<main class="main" itemtype=""  itemprop="Portfolio">
+    <section class="portfolio-content">
+        <div class="portfolio-section-content">
+            <div class="portfolio-section-content-text">
+                <h1 class="portfolio-section-content-text-title">
+                    {{title}}
+                </h1>
+                <p class="portfolio-section-content-text-description">
+                    {{description}}
+                    <p>Hey everyone. I wanted to give you an update on my videos. I will be releasing videos on threading and
+                        multiprocessing within the next week. Thanks so much for your patience. I currently have a temporary
+                        recording studio setup at my Airbnb that will allow me to record and edit the threading/multiprocessing
+                        videos. I am going to be moving into my new house in 10 days and once I have my recording studio setup then
+                        you can expect much faster video releases. I really appreciate how patient everyone has been while I go
+                        through this move, especially those of you who are contributing monthly through YouTube </p>
+                </p>
+            </div>
+            <div class="portfolio-section-content-image">
+                <img src="/static/images/port.jpg" alt="{{title}}">
+            </div>
+        </div>
+
+
+</main>
+
+</body>
     
 
 {% endblock content %}
